@@ -5,7 +5,9 @@
 // Print X as shown below. Print endline after the result
 // otherwise you will get “Presentation Error”.
 
-let a = prompt();
-let b = prompt();
-let x = parseInt(a) + parseInt(b);
-console.log("X = \n" + x);
+let a = parseInt(lines[0]);
+let b = parseInt(lines[1]);
+
+let x = a + b;
+
+console.log("X = " + x);

@@ -1,7 +1,7 @@
 Etapa 1 — Entrada, saída e operações
-[ ] 1000 - Hello World!
-[ ] 1001 - Extremamente Básico
-[ ] 1002 - Área do Círculo
+[X] 1000 - Hello World!
+[X] 1001 - Extremamente Básico
+[X] 1002 - Área do Círculo
 [ ] 1003 - Soma Simples
 [ ] 1004 - Produto Simples
 [ ] 1005 - Média 1
