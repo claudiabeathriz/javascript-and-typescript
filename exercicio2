@@ -1,0 +1,17 @@
+type StatusRequisicao = "sucesso" | "erro" | "carregando";
+
+function mostrarMensagemStatus(status: StatusRequisicao) {
+  if (status === "sucesso") {
+    return "Requisição realizada com sucesso!";
+  }
+
+  if (status === "erro") {
+    return "Ocorreu um erro na requisição.";
+  }
+
+  return "Aguarde... carregando dados.";
+}
+
+console.log(mostrarMensagemStatus("carregando"));
+console.log(mostrarMensagemStatus("sucesso"));
+console.log(mostrarMensagemStatus("erro"));

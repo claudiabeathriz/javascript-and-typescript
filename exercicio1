@@ -1,0 +1,9 @@
+let total = 100;
+
+function adicionar(a: number, b: number) {
+  return a + b;
+}
+
+const soma = adicionar(20, 30);
+
+console.log(soma);

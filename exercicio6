@@ -1,0 +1,10 @@
+function retornarElemento<T>(array: T[], index: number): T {
+  return array[index];
+}
+
+const numero = retornarElemento([10, 20, 30], 1);
+
+const letra = retornarElemento(["a", "b", "c"], 0);
+
+console.log(numero);
+console.log(letra);
