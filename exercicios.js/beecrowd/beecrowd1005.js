@@ -1,5 +1,8 @@
 // average
 
+var input = require("fs").readFileSync(0, "utf8");
+var lines = input.trim().split("\n");
+
 let a = parseFloat(lines[0]);
 let b = parseFloat(lines[1]);
 
