@@ -5,7 +5,7 @@ Etapa 1 — Entrada, saída e operações
 [X] 1003 - Soma Simples
 [X] 1004 - Produto Simples
 [X] 1005 - Média 1
-[ ] 1013 - O Maior
+[X] 1013 - O Maior
 
 Etapa 2 — Condicionais
 [ ] 1035 - Teste de Seleção 1
